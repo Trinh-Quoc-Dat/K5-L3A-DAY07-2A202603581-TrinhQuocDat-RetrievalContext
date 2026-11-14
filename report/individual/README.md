@@ -1,3 +1,14 @@
-# Báo cáo cá nhân
 
-Sao chép [MSSV_HoTen.md](MSSV_HoTen.md), đổi tên theo MSSV và họ tên, ví dụ `20241234_NguyenVanAn.md`. Ghi đường dẫn kết quả và lệnh chạy; không nộp dữ liệu mật.
+
+## Hướng dẫn chạy lại
+
+```bash
+# Cài đặt môi trường (đã thực hiện trong Lab7)
+# Chạy benchmark trên dev:
+python -m src.lexical_agent
+
+# Chạy benchmark trên test:
+python -m src.lexical_agent_test
+```
+
+Kết quả sẽ được ghi vào `starter/results/benchmark_dev/` và `starter/results/benchmark_test/`.

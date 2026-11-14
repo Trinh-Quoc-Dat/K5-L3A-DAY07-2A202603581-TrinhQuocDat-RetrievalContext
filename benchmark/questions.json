@@ -1,0 +1,294 @@
+[
+  {
+    "id": "q01",
+    "type": "direct",
+    "split": "dev",
+    "question": "What three areas of expertise are now expected from a data scientist or data science team?",
+    "gold": [
+      {
+        "source_id": "principles-data-science",
+        "page": 20,
+        "evidence": "Now, it is expected\nthat a data scientist or data science team will have some expertise in all three domains."
+      }
+    ],
+    "expected_answer": "Data collection, data management, and data analysis."
+  },
+  {
+    "id": "q02",
+    "type": "paraphrase",
+    "split": "dev",
+    "question": "Why should data visualization be used when communicating analytical findings?",
+    "gold": [
+      {
+        "source_id": "principles-data-science",
+        "page": 22,
+        "evidence": "The goal of\ndata visualization is to communicate information effectively and facilitate better decision-making."
+      }
+    ],
+    "expected_answer": "It communicates information effectively and supports better decision-making."
+  },
+  {
+    "id": "q03",
+    "type": "direct",
+    "split": "dev",
+    "question": "Which methods can be used to collect data in a data science project?",
+    "gold": [
+      {
+        "source_id": "principles-data-science",
+        "page": 68,
+        "evidence": "Some common methods for data collection include experiments,\nsurveys, observation, focus groups, interviews, and document analysis."
+      }
+    ],
+    "expected_answer": "Experiments, surveys, observation, focus groups, interviews, and document analysis."
+  },
+  {
+    "id": "q04",
+    "type": "condition",
+    "split": "dev",
+    "question": "In Chapter 2, what environmental conditions should be kept identical when comparing two groups of plants in an experiment?",
+    "gold": [
+      {
+        "source_id": "principles-data-science",
+        "page": 71,
+        "evidence": "Both groups were maintained under identical environmental conditions, including temperature, humidity, and\nsoil moisture."
+      }
+    ],
+    "expected_answer": "Temperature, humidity, and soil moisture.",
+    "filter": {
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "q05",
+    "type": "direct",
+    "split": "dev",
+    "question": "What aspects of a dataset are covered by descriptive statistics?",
+    "gold": [
+      {
+        "source_id": "principles-data-science",
+        "page": 114,
+        "evidence": "Descriptive statistics includes measures of the center and dispersion of data, measures of position, and\ngeneration of various graphical displays."
+      }
+    ],
+    "expected_answer": "Measures of center, dispersion, position, and graphical displays."
+  },
+  {
+    "id": "q06",
+    "type": "condition",
+    "split": "dev",
+    "question": "Why is calculating the average of an identifier column in a dataset not meaningful?",
+    "gold": [
+      {
+        "source_id": "principles-data-science",
+        "page": 120,
+        "evidence": "The\nfirst column—Unnamed: 0—was simply used as an identifier of each item in the dataset, so the average and\nmean of this column is not quite useful."
+      }
+    ],
+    "expected_answer": "Because the column is an identifier rather than a meaningful measurement variable."
+  },
+  {
+    "id": "q07",
+    "type": "paraphrase",
+    "split": "dev",
+    "question": "How does inferential statistics help a data scientist make conclusions about a population?",
+    "gold": [
+      {
+        "source_id": "principles-data-science",
+        "page": 156,
+        "evidence": "A data scientist is often interested in making\ngeneralizations about a population based on the characteristics derived from a sample;"
+      }
+    ],
+    "expected_answer": "It uses characteristics derived from a sample to make generalizations about the population."
+  },
+  {
+    "id": "q08",
+    "type": "direct",
+    "split": "dev",
+    "question": "What are the two purposes of hypothesis testing mentioned in Chapter 4?",
+    "gold": [
+      {
+        "source_id": "principles-data-science",
+        "page": 175,
+        "evidence": "Hypothesis testing is an important tool for data scientists in that it is used to draw conclusions using sample\ndata, and it is also used to quantify uncertainty associated with these conclusions."
+      }
+    ],
+    "expected_answer": "Drawing conclusions using sample data and quantifying uncertainty associated with those conclusions."
+  },
+  {
+    "id": "q09",
+    "type": "paraphrase",
+    "split": "dev",
+    "question": "How can time series analysis help predict future observations?",
+    "gold": [
+      {
+        "source_id": "principles-data-science",
+        "page": 223,
+        "evidence": "In this chapter we explore the concept of time series and develop\nthe necessary tools to discover trends and repeating patterns hidden within time series data to forecast future\nvalues of the series and quantify the uncertainty of those predictions."
+      }
+    ],
+    "expected_answer": "By identifying trends and repeating patterns in historical time series data, then forecasting future values and quantifying prediction uncertainty."
+  },
+  {
+    "id": "q10",
+    "type": "condition",
+    "split": "dev",
+    "question": "What distinguishes a seasonal component from other variations in a time series?",
+    "gold": [
+      {
+        "source_id": "principles-data-science",
+        "page": 232,
+        "evidence": "Seasonal component (often referred to as seasonality). Variation in the data that occurs at fixed time\nperiods, such as every year in the same months or every week on the same days."
+      }
+    ],
+    "expected_answer": "It recurs at fixed time intervals, such as the same months each year or the same days each week."
+  },
+  {
+    "id": "q11",
+    "type": "direct",
+    "split": "dev",
+    "question": "What is the purpose of a training set in machine learning?",
+    "gold": [
+      {
+        "source_id": "principles-data-science",
+        "page": 276,
+        "evidence": "The part of that dataset that is used for initial learning is the training set (or data)."
+      }
+    ],
+    "expected_answer": "It is the portion of the dataset used for the model's initial learning."
+  },
+  {
+    "id": "q12",
+    "type": "condition",
+    "split": "dev",
+    "question": "In Chapter 6, which classification technique is identified as suitable when there are exactly two possible outputs?",
+    "gold": [
+      {
+        "source_id": "principles-data-science",
+        "page": 284,
+        "evidence": "Logistic regression is one tool for classification when there are only two\npossible outputs."
+      }
+    ],
+    "expected_answer": "Logistic regression.",
+    "filter": {
+      "chapter": "6"
+    }
+  },
+  {
+    "id": "q13",
+    "type": "direct",
+    "split": "dev",
+    "question": "How does backpropagation adjust a neural network during training?",
+    "gold": [
+      {
+        "source_id": "principles-data-science",
+        "page": 351,
+        "evidence": "Backpropagation is an algorithm used to train neural networks by determining how the errors depend on\nchanges in the weights and biases of all the neurons, starting from the output layer and working backward\nthrough the layers, recursively updating the parameters based on how the error changes in each layer."
+      }
+    ],
+    "expected_answer": "It propagates error information backward from the output layer and updates weights and biases based on how the error changes."
+  },
+  {
+    "id": "q14",
+    "type": "condition",
+    "split": "dev",
+    "question": "According to Chapter 8, what control should individuals have over data collected by a fitness tracking application?",
+    "gold": [
+      {
+        "source_id": "principles-data-science",
+        "page": 388,
+        "evidence": "They should have the autonomy to choose which data points they\nwant to collect and which ones they do not."
+      }
+    ],
+    "expected_answer": "They should be able to choose which personal data points are collected and which are not.",
+    "filter": {
+      "chapter": "8"
+    }
+  },
+  {
+    "id": "q15",
+    "type": "paraphrase",
+    "split": "dev",
+    "question": "What measures should an organization establish before sharing data securely with other parties?",
+    "gold": [
+      {
+        "source_id": "principles-data-science",
+        "page": 398,
+        "evidence": "This includes setting guidelines and procedures for\ndata usage, implementing security measures to protect data privacy and integrity, and providing access\nonly to authorized individuals or organizations."
+      }
+    ],
+    "expected_answer": "Establish data usage guidelines, security measures for privacy and integrity, and access controls for authorized parties."
+  },
+  {
+    "id": "q16",
+    "type": "direct",
+    "split": "test",
+    "question": "What role does data visualization play in the data science lifecycle?",
+    "gold": [
+      {
+        "source_id": "principles-data-science",
+        "page": 422,
+        "evidence": "Data visualization is\na key component of the data science lifecycle and is an important tool used by data scientists and researchers."
+      }
+    ],
+    "expected_answer": "It is a key component of the lifecycle and an important tool for data scientists and researchers."
+  },
+  {
+    "id": "q17",
+    "type": "paraphrase",
+    "split": "test",
+    "question": "How can researchers use a time series graph to understand historical measurements?",
+    "gold": [
+      {
+        "source_id": "principles-data-science",
+        "page": 436,
+        "evidence": "A time series graph\nallows data scientists to visually identify trends in data over time."
+      }
+    ],
+    "expected_answer": "They can visually identify trends in measurements over time."
+  },
+  {
+    "id": "q18",
+    "type": "direct",
+    "split": "test",
+    "question": "Which project details should data scientists be prepared to communicate in a technical report?",
+    "gold": [
+      {
+        "source_id": "principles-data-science",
+        "page": 472,
+        "evidence": "Data scientists should be prepared to explain the research question, the sources of data, the steps in data\nprocessing, key analytical techniques and statistical methods employed and their purposes and justifications,\nand finally, the outcomes of the project."
+      }
+    ],
+    "expected_answer": "The research question, data sources, processing steps, analytical and statistical methods with their justifications, and project outcomes."
+  },
+  {
+    "id": "q19",
+    "type": "condition",
+    "split": "test",
+    "question": "When validating a model, what should be documented and justified before developing the model?",
+    "gold": [
+      {
+        "source_id": "principles-data-science",
+        "page": 479,
+        "evidence": "Prior to developing models, it is critical to\nidentify and clearly state assumptions and provide justifications for the data collection and analysis strategies\nused."
+      }
+    ],
+    "expected_answer": "The assumptions and the justifications for the selected data collection and analysis strategies.",
+    "filter": {
+      "chapter": "10"
+    }
+  },
+  {
+    "id": "q20",
+    "type": "paraphrase",
+    "split": "test",
+    "question": "What technological development has enabled modern AI systems to train large neural networks on extensive datasets?",
+    "gold": [
+      {
+        "source_id": "principles-data-science",
+        "page": 342,
+        "evidence": "Modern AI systems, like ChatGPT\ndeveloped by OpenAI, are powered by state-of-the-art hardware, which enables the training of large neural\nnetworks on vast datasets."
+      }
+    ],
+    "expected_answer": "Advancements in computational power and state-of-the-art hardware."
+  }
+]

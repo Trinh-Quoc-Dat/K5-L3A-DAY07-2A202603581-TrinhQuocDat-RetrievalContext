@@ -1,0 +1,174 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What three areas of expertise are now expected from a data scientist or data science team?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Why should data visualization be used when communicating analytical findings?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Which methods can be used to collect data in a data science project?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "In Chapter 2, what environmental conditions should be kept identical when comparing two groups of plants in an experiment?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "What aspects of a dataset are covered by descriptive statistics?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Why is calculating the average of an identifier column in a dataset not meaningful?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "How does inferential statistics help a data scientist make conclusions about a population?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "What are the two purposes of hypothesis testing mentioned in Chapter 4?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "How can time series analysis help predict future observations?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "What distinguishes a seasonal component from other variations in a time series?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "What is the purpose of a training set in machine learning?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "In Chapter 6, which classification technique is identified as suitable when there are exactly two possible outputs?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "How does backpropagation adjust a neural network during training?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "According to Chapter 8, what control should individuals have over data collected by a fitness tracking application?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "What measures should an organization establish before sharing data securely with other parties?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "What role does data visualization play in the data science lifecycle?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "How can researchers use a time series graph to understand historical measurements?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Which project details should data scientists be prepared to communicate in a technical report?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "When validating a model, what should be documented and justified before developing the model?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "What technological development has enabled modern AI systems to train large neural networks on extensive datasets?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "dev_abs_01",
+    "split": "dev",
+    "question": "In Chapter 6, what specific learning rate and weight decay coefficients were configured for the AdamW optimizer in the neural network benchmark?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu Principles of Data Science không đề cập đến chi tiết tham số thực nghiệm học cụ thể (learning rate, weight decay) của bộ tối ưu AdamW."
+  },
+  {
+    "id": "dev_abs_02",
+    "split": "dev",
+    "question": "What are the exact hardware specifications, GPU model, and VRAM amount recommended by the author for running local LLMs in Chapter 7?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có thông số kỹ thuật GPU hoặc dung lượng VRAM cụ thể được tác giả đưa ra trong tài liệu."
+  },
+  {
+    "id": "test_abs_01",
+    "split": "test",
+    "question": "According to Chapter 10, what is the maximum acceptable p-value threshold enforced by the FDA for clinical trial data science models?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu không chứa thông tin về quy định hay ngưỡng p-value cụ thể của FDA."
+  },
+  {
+    "id": "test_abs_02",
+    "split": "test",
+    "question": "What Python command or library function is recommended in Chapter 9 to render 3D interactive holographic charts?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có nội dung hoặc thư viện trực quan hóa 3D holographic nào được hướng dẫn trong tài liệu."
+  }
+]
